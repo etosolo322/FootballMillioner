@@ -12,8 +12,7 @@ export default function Main({navigation}) {
   const questionsToGame = () =>{
     let questions =[];
     let num = [];
-    questions.push(easy.find(item=>item.picture==='true'))
-    for (let i=1;i<5;i++){
+    for (let i=0;i<5;i++){
       let count = Math.floor(Math.random()*easy.length); 
       //сделать уникальный поиск
       questions.push(easy[count])

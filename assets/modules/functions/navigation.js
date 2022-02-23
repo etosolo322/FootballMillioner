@@ -2,7 +2,7 @@ import React from "react";
 
 import Main from '../pages/main'
 import Profile from '../pages/Profile'
-import Future from './Future'
+import Future from '../pages/Future'
 import Game from '../pages/Game'
 
 import { NavigationContainer } from '@react-navigation/native';
