@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Football Millioner",
+    "slug": "FootballMillioner",
+    "version": "0.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/images/ico.png",
+    "splash": {
+      "image": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+   
+    "android": {
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1    
+    }
+   
+  }
+}
