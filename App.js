@@ -1,9 +1,9 @@
 import {React, componentDidMount} from 'react';
 import MainStack from './assets/modules/functions/navigation';
-import {getData, storeData} from './assets/modules/functions/base/storageLVL'
+//import {getData, storeData} from './assets/modules/functions/base/storageLVL'
 
 //getData().then(item => console.log(item))
-storeData('1')
+//storeData('0')
 export default function App() {
   return (
     <MainStack/>

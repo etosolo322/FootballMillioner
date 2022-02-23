@@ -7,6 +7,7 @@ export const storeData = async (value) => {
       // saving error
     }
   }
+  
   export const getData = async () => {
     try {
       const value = await AsyncStorage.getItem('Level')

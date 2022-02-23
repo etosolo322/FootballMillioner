@@ -21,9 +21,10 @@ const getData = async () => {
     const value = await AsyncStorage.getItem('@storage_Key')
     if(value !== null) {
       if (Number(value)<rez){
-        console.log(rez)
+       // console.log(rez)
         storeData(String(rez))
       }else{
+        storeData(String(rez))     
       }
     }
   } catch(e) {
@@ -152,7 +153,7 @@ const otvet = (text)=>{
               },1200)
       } else{            
         setTimeout(()=>{
-          (async ()=>await getData())()
+           getData()
           setShowModal(!showModal)
           counter = 0;
           rezalt = 0;
@@ -313,7 +314,7 @@ textQuestion:{
   borderStyle:'dashed',
   borderWidth:1.5,  
   borderRadius:20,
-  elevation:1
+
 },
 imgQuestion:{
   backgroundColor: 'rgba(255, 255, 255, 0.2)',
